@@ -31,6 +31,12 @@ h1 { margin: 15px 0 10px; font-size: 22px; line-height: 1.3; font-weight: 400; l
 h1 span { font-size: .88em; letter-spacing: 0; }
 h2 { margin: 0 0 15px; padding-bottom: 9px; border-bottom: 1px solid var(--line); font-size: 22px; line-height: 1.3; font-weight: 400; }
 .heading-icon { display: inline-block; width: .9em; height: .9em; margin-right: .35em; vertical-align: -.1em; overflow: visible; }
+#publications-title .heading-icon { color: #4386b5; }
+#publications-title .heading-icon path:first-child { fill: #e8f2fa; }
+#honors-title .heading-icon { color: #bc8b22; }
+#honors-title .heading-icon path:first-child { fill: #f4cd58; }
+#service-title .heading-icon { color: #303030; }
+#service-title .heading-icon path:first-child { fill: #303030; }
 h3 { margin: 0; font-size: 16px; line-height: 1.45; font-weight: 600; }
 
 .masthead { position: sticky; top: 0; z-index: 20; background: #fff; border-bottom: 1px solid var(--line); }
